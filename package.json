@@ -1,6 +1,6 @@
 {
   "name": "b-pretty-log",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "pretty log messages for browser",
   "main": "dist",
   "scripts": {
