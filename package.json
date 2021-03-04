@@ -19,8 +19,7 @@
   ],
   "files": [
     "dist",
-    "index.d.ts",
-    "assets"
+    "index.d.ts"
   ],
   "author": "kevinzhao (http://github.com/kevinzhao2233)",
   "license": "MIT",
