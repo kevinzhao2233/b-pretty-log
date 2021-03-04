@@ -3,7 +3,9 @@
   "version": "0.0.2",
   "description": "pretty log messages for browser",
   "main": "dist",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kevinzhao2233/b-pretty-log.git"
