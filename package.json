@@ -1,0 +1,28 @@
+{
+  "name": "b-pretty-log",
+  "version": "0.0.1",
+  "description": "pretty log messages for browser",
+  "main": "dist",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinzhao2233/b-pretty-log.git"
+  },
+  "keywords": [
+    "log",
+    "console.log",
+    "styles",
+    "pretty",
+    "logger"
+  ],
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "author": "kevinzhao (http://github.com/kevinzhao2233)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinzhao2233/b-pretty-log/issues"
+  },
+  "homepage": "https://github.com/kevinzhao2233/b-pretty-log#readme"
+}
