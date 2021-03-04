@@ -1,7 +1,7 @@
 /**
  * 控制台输出好看的打印信息
  */
-export declare type ColorType = 'primary' | 'success' | 'danger' | 'warning' | 'gray';
+export declare type ColorType = 'primary' | 'success' | 'danger' | 'warning' | 'info';
 export interface Log {
     (text: any, content: any, color?: ColorType, back?: boolean): void;
     success: (title: string, content: any) => void;

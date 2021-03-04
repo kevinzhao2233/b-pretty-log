@@ -46,7 +46,7 @@ log.warn = function (text, content) {
     log(text, content, 'danger');
 };
 log.info = function (text, content) {
-    log(text, content, 'gray');
+    log(text, content, 'info');
 };
 // 颜色值，取自 Ant Design
 var colors = {
@@ -54,7 +54,7 @@ var colors = {
     success: '#52c41a',
     warning: '#faad14',
     danger: '#ff4d4f',
-    gray: '#4C6080'
+    info: '#4C6080'
 };
 /**
  * 返回颜色值

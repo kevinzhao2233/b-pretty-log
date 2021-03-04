@@ -2,7 +2,7 @@
  * 控制台输出好看的打印信息
  */
 
-export type ColorType = 'primary' | 'success' | 'danger' | 'warning' | 'gray';
+export type ColorType = 'primary' | 'success' | 'danger' | 'warning' | 'info';
 
 export interface Log {
   (text: any, content: any, color?: ColorType, back?: boolean): void;
@@ -74,7 +74,7 @@ log.warn = function (text, content) {
   log(text, content, 'danger');
 };
 log.info = function (text, content) {
-  log(text, content, 'gray');
+  log(text, content, 'info');
 };
 
 // 颜色值，取自 Ant Design
@@ -83,7 +83,7 @@ const colors = {
   success: '#52c41a',
   warning: '#faad14',
   danger: '#ff4d4f',
-  gray: '#4C6080'
+  info: '#4C6080'
 };
 
 /**
